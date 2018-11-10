@@ -4,7 +4,7 @@ import EmployeeForm from './EmployeeForm';
 import { connect } from 'react-redux';
 import { employeeUpdate, employeeCreate } from '../actions';
 
-class EmployeeForm extends Component {
+class EmployeeCreate extends Component {
 
     onButtonPress() {
         const { name, phone, shift } = this.props;
@@ -35,4 +35,4 @@ const mapStateToProps = (state) => {
 
 export default connect(mapStateToProps, {
     employeeUpdate, employeeCreate
-})(EmployeeForm); 
+})(EmployeeCreate); 
