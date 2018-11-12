@@ -6,6 +6,10 @@ import { employeeUpdate, employeeCreate } from '../actions';
 
 class EmployeeCreate extends Component {
 
+    componentDidMount() {
+        console.log(this.props); 
+    }
+
     onButtonPress() {
         const { name, phone, shift } = this.props;
 
@@ -17,7 +21,7 @@ class EmployeeCreate extends Component {
        
         return (
             <Card>
-                <EmployeeForm {...this.props}/>
+                <EmployeeForm />
                 <CardSection>
                     <Button onPress={this.onButtonPress.bind(this)}>
                         Create

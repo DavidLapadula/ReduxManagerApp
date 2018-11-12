@@ -6,6 +6,11 @@ import { emailChanged, passWordChanged, loginUser } from '../actions';
 
 class LoginForm extends Component {
 
+    componentDidMount() {
+
+        console.log(loginStyles); 
+    }
+
     onEmailChange(text) {
         this.props.emailChanged(text)
     }
@@ -35,7 +40,7 @@ class LoginForm extends Component {
         if (this.props.error) {
             return (
                 <View style={{ backgroundColor: 'white' }}>
-                    <Text style={styles.errorTextStyle}>
+                    <Text style={loginStyles.errorTextStyle}>
                         {this.props.error}
                     </Text>
                 </View>
@@ -75,7 +80,7 @@ class LoginForm extends Component {
     }
 }
 
-styles = {
+loginStyles = {
     errorTextStyle: {
         fontSize: 20,
         alignSelf: 'center',
