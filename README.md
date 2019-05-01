@@ -32,7 +32,7 @@ So if all you desire is looking into the source code, than you are in the right 
 
 Running this application is alightly more challnging. [This Article](https://codeburst.io/setting-up-development-environment-using-react-native-on-windows-dd240e69f776) provides a more thorough guide to setting up the React Native development environment than I ever could. So if you want to run this application, make sure to have a firebase account (link above), node installed on your computer (link above), and Android Studio (link in the article mentioned). 
 
-After following the steps listed in the article, fork/clone the repository and you should be ready to go!
+After following the steps listed in the article, fork/clone the repository and you are ready to go!
 
 
 ## Credits
