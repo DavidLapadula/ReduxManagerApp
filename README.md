@@ -2,7 +2,7 @@
 This is a simple mobile application made with React Native and Redux. It is meant to simulate the functions performed by a manager in so far as it requires authentication, allows the user to add employees/shifts, remove employees, make a schedule, and send text message updates to employees from within the application. 
 
 ## Motivation
-This project was made to sharpen my skills in React Native and learn how to use Redux. Given the popularity of the mobile platform, and the ubiquity of Redux, I thought comitting to a project using these technologies would be highly beneficial. 
+This project was made to sharpen my skills in React Native and learn how to use Redux. Given the popularity of the mobile platform, and the ubiquity of Redux, completing a project using these technologies was highly beneficial. 
 
  
 ## Screenshots
