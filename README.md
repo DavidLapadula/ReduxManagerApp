@@ -27,7 +27,7 @@ This project was made to sharpen my skills in React Native and learn how to use 
 The aspects of this application that make it unique are twofold. Firstly, it uses modern technologies that are currently being used in production. This gives the application a contemporary status which allows it to parallel other ismilar applications on the market. Secondly, the functionality of the application are practical; many comapanies likely use similar systems for organizing their scheduling. 
 
 
-## Installation and Usage?
+## Installation and Usage
 So if all you desire is looking into the source code, than you are in the right place. This app is in a public repository that can be accessed by anyone with a GitHub account. 
 
 Running this application is alightly more challnging. [This Article](https://codeburst.io/setting-up-development-environment-using-react-native-on-windows-dd240e69f776) provides a more thorough guide to setting up the React Native development environment than I ever could. So if you want to run this application, make sure to have a firebase account (link above), node installed on your computer (link above), and Android Studio (link in the article mentioned). 
